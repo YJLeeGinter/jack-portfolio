@@ -5,8 +5,7 @@ body{
 
 .height-80{
     min-height: 80vh;
-   
-}
+   }
 
 .height{
     min-height: 100vh;
@@ -32,34 +31,37 @@ body{
     color: #FFBB00;
 }
 
+.mouth-pos{
+    padding-top: 70vh;
+}
+
 .mouth{
     background-color: #CB1A1A;
-    border-radius: 50%;
-    width: 50%;
+    border-radius: 90%;
 }
-
-.mouth h1{
-    text-align: center;
-    font-weight: bold;
-}
-
 
 .bg-custom{
     background-color: #705407;
 } 
 
-.eyepos{
-    padding-top: 30vh;
-    padding-bottom: 20vh;
-}
-
-.eye {
+.eye1 {
     display: inline-block;
     width: 5rem;
     height: 5rem;
-    margin-left: 28vh;
     background-color: #511C1C;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+  } 
 
+  .eye2 {
+    display: inline-block;
+    width: 5rem;
+    height: 5rem;
+    background-color: #511C1C;
+    position: absolute;
+    top: 30%;
+    right: 20%;
   } 
 
   .name{
@@ -80,7 +82,7 @@ body{
 }
 
 .title-underline{
-    width: 400px;
+    width: 300px;
     height: 1vh;
     background-color: #CB1A1A;
     margin: 0 auto;
@@ -88,14 +90,19 @@ body{
 
   .about{
       color: black;
-      font-weight: bold;
       background-color: white;
       border: 5px solid lightgrey;
-
+      width: 330px;
+      transform: rotate(-15deg);
   }
 
-  .aboutsec{
-      background-color: #FFE69F;
-  }
 
- 
+ .space{
+     height: 5vh;
+ }
+
+ .bottom-deco{
+     height: 2vh;
+     border-bottom: 2rem dotted #CB1A1A;
+
+ }
