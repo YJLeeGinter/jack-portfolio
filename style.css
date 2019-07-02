@@ -45,6 +45,9 @@ body{
 .bg-custom2{
     background-color: #FFE69F;
 }
+.icon-color{
+    color: #705407;
+}
 
 .eye{
     display: inline-block;
@@ -115,6 +118,10 @@ body{
      height: 2vh;
      border-bottom: 2rem dotted #CB1A1A;
 
+ }
+
+ .fon-size{
+    font-size: 1.5rem;
  }
 
  
