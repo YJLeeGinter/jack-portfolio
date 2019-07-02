@@ -124,4 +124,21 @@ body{
     font-size: 1.5rem;
  }
 
- 
+ .navbar-nav.font-weight-bolder.w-100.justify-content-center li a{
+     color: white;
+     font-size: 1.2rem;
+ }
+
+ .navbar-nav.font-weight-bolder.w-100.justify-content-center li a:hover{
+    background-color: white;
+    color: black;
+}
+
+@media (min-width:720px) {
+    .navbar {
+      padding: 0!important;
+    }
+    .navbar-nav a {
+      padding: 15px 0; /* add some padding to link to keep the same height*/
+    }
+  }
